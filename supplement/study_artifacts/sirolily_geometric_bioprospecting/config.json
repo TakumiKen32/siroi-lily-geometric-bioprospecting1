@@ -1,0 +1,64 @@
+{
+  "run_profile": "paper",
+  "project_name": "sirolily_geometric_bioprospecting",
+  "base_seed": 20260717,
+  "strict_data_validation": true,
+  "require_a100_for_paper": true,
+  "chembl_targets": {
+    "ALOX15": {
+      "target_chembl_id": "CHEMBL2903",
+      "kind": "regression"
+    },
+    "COX2": {
+      "target_chembl_id": "CHEMBL230",
+      "kind": "regression"
+    }
+  },
+  "pubchem_are_aid": 743219,
+  "pubchem_are_viability_aid": 743203,
+  "chembl_activity_type": "IC50",
+  "chembl_units": "nM",
+  "minimum_assay_confidence": 8,
+  "max_replicate_range_log_units": 2.0,
+  "initial_conformers": 10,
+  "retained_conformers": 3,
+  "conformer_energy_window_kcal": 10.0,
+  "conformer_rms_prune_angstrom": 0.75,
+  "radius_cutoff_angstrom": 5.0,
+  "max_spatial_neighbors": 64,
+  "graph_jobs": 8,
+  "hidden_dim": 256,
+  "num_layers": 6,
+  "rbf_dim": 32,
+  "dropout": 0.08,
+  "coord_scale": 0.05,
+  "epochs": 80,
+  "seeds": [
+    13,
+    37,
+    73,
+    101,
+    151
+  ],
+  "max_lr": 0.001,
+  "weight_decay": 0.0001,
+  "pct_start": 0.1,
+  "gradient_clip": 1.0,
+  "patience": 18,
+  "batch_atom_budget": 16000,
+  "num_workers": 4,
+  "use_bfloat16": true,
+  "enable_torch_compile": false,
+  "bootstrap_iterations": 1000,
+  "split_fractions": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "split_seed_search_limit": 1000,
+  "ecfp_bits": 2048,
+  "ecfp_radius": 2,
+  "run_ablations": true,
+  "run_multitask": true,
+  "quick_max_per_task": 700
+}

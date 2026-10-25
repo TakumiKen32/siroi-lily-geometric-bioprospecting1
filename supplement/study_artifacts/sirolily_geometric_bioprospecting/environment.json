@@ -1,0 +1,13 @@
+{
+  "completed_utc": "2026-07-17T18:08:13.680361+00:00",
+  "run_profile": "paper",
+  "python": "3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "pytorch": "2.11.0+cu128",
+  "rdkit": "2026.03.4",
+  "torch_geometric": "2.8.0",
+  "sklearn": "1.6.1",
+  "xgboost": "3.3.0",
+  "scaffold_split_seed": 20260717
+}

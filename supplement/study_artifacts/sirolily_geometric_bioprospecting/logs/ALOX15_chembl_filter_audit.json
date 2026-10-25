@@ -1,0 +1,9 @@
+{
+  "task": "ALOX15",
+  "target_id": "CHEMBL2903",
+  "raw_rows": 482,
+  "filtered_rows_before_structure_standardization": 469,
+  "confidence_threshold": 8,
+  "activity_type": "IC50",
+  "units": "nM"
+}

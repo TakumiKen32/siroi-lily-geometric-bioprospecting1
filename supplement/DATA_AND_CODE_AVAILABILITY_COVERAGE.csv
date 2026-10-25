@@ -1,0 +1,11 @@
+promised_item,location_in_package,notes
+Complete executable Google Colab notebook,code/Siroi_Lily_Geometric_Bioprospecting_A100_Final.ipynb,Exact final executed notebook; JSON-validated and no stored error outputs.
+Immutable public-database snapshots,study_artifacts/sirolily_geometric_bioprospecting/data/raw/,Original ChEMBL REST JSON and PubChem assay/structure CSV snapshots. Hashes cross-checked in PUBLIC_DATABASE_SNAPSHOT_VERIFICATION.csv.
+Curated endpoint tables,study_artifacts/sirolily_geometric_bioprospecting/data/processed/ and strict_sensitivity/data/processed/,"Broad and strict curated endpoint tables, including graph-availability-filtered versions."
+Exclusion audits,study_artifacts/sirolily_geometric_bioprospecting/logs/ and strict_sensitivity/logs/,Broad ChEMBL/PubChem filter audits plus strict filter-step and assay-replicate audits.
+Scaffold-split manifests,"study_artifacts/sirolily_geometric_bioprospecting/data/splits/, strict_sensitivity/data/splits/, strict_sensitivity/alox15_scaffold_cross_validation/splits/","Broad locked split, strict locked splits, and five-fold ALOX15 scaffold assignments."
+Out-of-fold predictions,study_artifacts/sirolily_geometric_bioprospecting/strict_sensitivity/alox15_scaffold_cross_validation/tables/,"Classical, neural, ensemble, and all-model ALOX15 out-of-fold prediction tables."
+Model metrics,study_artifacts/sirolily_geometric_bioprospecting/tables/ and strict_sensitivity/**/tables/,"Baseline, neural, ensemble, bootstrap, ablation, calibration/applicability, fold, and paired-comparison metrics."
+Figure files,paper_figures/ and study_artifacts/sirolily_geometric_bioprospecting/figures/,Exact five manuscript figures plus additional experiment/QC figures.
+SHA-256 handoff manifest,SHA256_MANIFEST.csv,New package-level SHA-256 manifest covering every file in this supplement except the manifest itself. Original broad/final manifests are also preserved in study_artifacts.
+Candidate table with source citations and provenance fields,study_artifacts/sirolily_geometric_bioprospecting/input/candidate_metabolites.csv; data/processed/candidate_metabolites_standardized.csv; strict_sensitivity/final_submission/tables/final_candidate_predictions_selected_models.csv,"Includes source_citation, provenance_tier, reported_species, plant_tissue, analytical_method, and notes."

@@ -1,0 +1,8 @@
+task,step,remaining_rows,excluded_at_step
+COX2,raw_download,6393,0
+COX2,exact_standardized_ic50,6386,7
+COX2,exact_human_target,6386,0
+COX2,confidence_9,3934,2452
+COX2,biochemical_assay,3905,29
+COX2,explicit_human_assay_organism,3905,0
+COX2,valid_nonduplicate,3181,724

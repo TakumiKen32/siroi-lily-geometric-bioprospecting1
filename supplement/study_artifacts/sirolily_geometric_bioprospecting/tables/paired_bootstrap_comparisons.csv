@@ -1,0 +1,4 @@
+task,reference,proposed,improvement_definition,mean_improvement,ci_2_5,ci_97_5
+ALOX15,ECFP4_RF,EGNN_3D_multiconformer,positive favors proposed,-0.07026787375505009,-0.19224510260645022,0.043446707572656465
+COX2,ECFP4_RF,EGNN_3D_multiconformer,positive favors proposed,-0.09469149847173264,-0.12554921183741333,-0.0648528289501322
+ARE,ECFP4_RF,EGNN_3D_multiconformer,positive favors proposed,-0.03979546980600524,-0.10785728797798272,0.022992821085063626

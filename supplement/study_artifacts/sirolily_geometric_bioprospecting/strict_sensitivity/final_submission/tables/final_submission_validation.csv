@@ -1,0 +1,11 @@
+check,passed,detail
+Five ALOX15 outer folds completed,True,
+Every ALOX15 molecule tested once per model,True,
+ALOX15 scaffold leakage absent,True,
+Scaffold-bootstrap intervals generated,True,
+Final model selection documented,True,
+Candidate predictions finite,True,
+Candidate provenance retained,True,
+Applicability-domain similarity retained,True,
+Species-specific overclaim prevented,True,
+Central claim matches CV evidence,True,Upper confidence bound is below zero; 3D is significantly worse than XGBoost under the defined improvement direction.

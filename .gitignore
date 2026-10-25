@@ -1,0 +1,13 @@
+# Mac Finder metadata
+.DS_Store
+._*
+
+# Local Python and notebook temporary files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+
+# Local credentials
+.env
+.env.*

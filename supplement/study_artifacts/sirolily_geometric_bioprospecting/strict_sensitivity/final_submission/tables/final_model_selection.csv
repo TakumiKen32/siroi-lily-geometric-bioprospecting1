@@ -1,0 +1,4 @@
+endpoint,selected_model,selection_evidence,primary_metric,estimated_value
+ALOX15,ECFP4-XGBoost five-fold ensemble,Lowest five-fold scaffold-disjoint out-of-fold RMSE,RMSE,0.6676276577192936
+COX2,ECFP4-Random-Forest ensemble,Lowest strict locked-test RMSE,RMSE,0.9401777206209531
+ARE,ECFP4-XGBoost ensemble,Highest broad locked-test PR-AUC among prespecified baselines,PR-AUC,0.2952147239983538

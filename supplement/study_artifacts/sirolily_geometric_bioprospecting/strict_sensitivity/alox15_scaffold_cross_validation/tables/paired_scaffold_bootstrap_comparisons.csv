@@ -1,0 +1,5 @@
+reference,proposed,improvement_definition,mean_RMSE_improvement,improvement_ci_2_5,improvement_ci_97_5,probability_proposed_better,paired_molecules,paired_scaffolds
+ECFP4_RF,MPNN_2D_zHuber,positive favours proposed,-0.12694840899706977,-0.21798863494013038,-0.03490686186502015,0.0012,202,82
+ECFP4_RF,EGNN_3D_zHuber_multiconformer,positive favours proposed,-0.16672164577810591,-0.2565682201332459,-0.07644077496394645,0.0,202,82
+ECFP4_XGB,EGNN_3D_zHuber_multiconformer,positive favours proposed,-0.18975342680522062,-0.3214351181969044,-0.0733439718004493,0.0002,202,82
+MPNN_2D_zHuber,EGNN_3D_zHuber_multiconformer,positive favours proposed,-0.0404921402440347,-0.095389979733926,0.01070464665199043,0.07,202,82

@@ -1,0 +1,9 @@
+{
+  "task": "COX2",
+  "target_id": "CHEMBL230",
+  "raw_rows": 6393,
+  "filtered_rows_before_structure_standardization": 5121,
+  "confidence_threshold": 8,
+  "activity_type": "IC50",
+  "units": "nM"
+}

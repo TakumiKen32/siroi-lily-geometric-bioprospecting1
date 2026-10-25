@@ -1,0 +1,13 @@
+DATABASE AND PROVENANCE NOTICE
+
+The raw ChEMBL and PubChem snapshots in this package are copies of public database responses used for the reported experiments.
+They are redistributed solely as reproducibility artifacts and remain subject to the respective ChEMBL and PubChem database terms and attribution requirements.
+
+Source endpoints used by the notebook:
+- ChEMBL ALOX15 target: CHEMBL2903
+- ChEMBL COX-2 target: CHEMBL230
+- PubChem NRF2/ARE assay: AID 743219
+- PubChem viability counter-screen: AID 743203
+
+Candidate provenance:
+The botanical screening table preserves source_citation, reported_species, plant_tissue, analytical_method, provenance_tier, and notes. The candidate compounds are literature-reported from Lilium lancifolium and are not confirmed metabolites of Lilium mackliniae.

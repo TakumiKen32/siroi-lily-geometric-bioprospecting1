@@ -1,0 +1,8 @@
+task,step,remaining_rows,excluded_at_step
+ALOX15,raw_download,482,0
+ALOX15,exact_standardized_ic50,482,0
+ALOX15,exact_human_target,482,0
+ALOX15,confidence_9,411,71
+ALOX15,biochemical_assay,411,0
+ALOX15,explicit_human_assay_organism,411,0
+ALOX15,valid_nonduplicate,400,11

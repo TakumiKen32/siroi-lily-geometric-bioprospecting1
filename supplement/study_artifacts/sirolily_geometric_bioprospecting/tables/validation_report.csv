@@ -1,0 +1,12 @@
+check,passed,detail
+Three endpoints present,True,
+No scaffold leakage,True,
+No exact-structure leakage,True,
+Finite labels,True,
+All endpoint models evaluated,True,
+Class test contains both labels,True,
+Candidate provenance retained,True,
+Candidate applicability domain reported,True,
+Bootstrap intervals generated,True,
+Figures generated,True,
+Checkpoints generated,True,

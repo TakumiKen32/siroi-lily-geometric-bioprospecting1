@@ -1,0 +1,10 @@
+{
+  "task": "ARE",
+  "assay_aid": 743219,
+  "viability_aid": 743203,
+  "usable_noncytotoxic_unique_cids": 5823,
+  "active": 787,
+  "inactive": 5036,
+  "cytotoxic_cids_excluded": 510,
+  "conflicting_cids_excluded": 47
+}

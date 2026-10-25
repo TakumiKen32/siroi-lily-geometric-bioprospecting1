@@ -1,0 +1,9 @@
+{
+  "chembl_api": "https://www.ebi.ac.uk/chembl/api/data",
+  "pubchem_pug_rest": "https://pubchem.ncbi.nlm.nih.gov/rest/pug",
+  "ALOX15_target": "CHEMBL2903",
+  "COX2_target": "CHEMBL230",
+  "NRF2_ARE_assay_AID": 743219,
+  "NRF2_ARE_viability_AID": 743203,
+  "retrieval_started_utc": "2026-07-17T14:36:58.995781+00:00"
+}
